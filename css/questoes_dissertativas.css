@@ -36,6 +36,11 @@ a {
     text-align: justify;
 }
 
+#p_fonte {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
 #areatxt {
     margin-left: 24%;
     width: 50vw;

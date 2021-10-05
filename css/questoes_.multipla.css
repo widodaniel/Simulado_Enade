@@ -21,6 +21,11 @@ a {
     text-align: justify;
 }
 
+#p_fonte {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
 
 .paragrafo-imagem1{
     width: 50%;
