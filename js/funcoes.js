@@ -1,5 +1,6 @@
 
 function Q1A() {
+    
     var opA = document.getElementById("opA");
     var opB = document.getElementById("opB");
     var opC = document.getElementById("opC");
