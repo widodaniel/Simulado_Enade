@@ -1,8 +1,13 @@
 
 function Q1A() {
+    var opA = document.getElementById("opA");
+    var opB = document.getElementById("opB");
+    var opC = document.getElementById("opC");
+    var opD = document.getElementById("opD");
+    var opE = document.getElementById("opE");
 
-    if (opA.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+    if (opA.checked==true) { // Opção correta
+        alert("VOCÊ ACERTOU!!") // Pop-up
     }
     else {
         alert("VOCÊ ERROU, a opção correta era alternativa A")
