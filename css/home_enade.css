@@ -46,6 +46,15 @@ header { /* Definindo a tag header*/
   margin-left: 315px; /* Colocando uma margin a esquerda de 315px*/
   margin-right: 315px; /* O mesmo fazendo para a margin da direita fazendo com que ela fique alinhada*/
   margin-top: 20px; /* */
+  font-style: italic;
+}
+
+.p-fonte { /* Definindo os paragrafos*/
+  font-family: Arial, Helvetica, sans-serif; /* Definindo a fonte*/
+  text-align: justify; /* Deixando os textos justificados*/
+  margin-left: 315px; /* Colocando uma margin a esquerda de 315px*/
+  margin-right: 315px; /* O mesmo fazendo para a margin da direita fazendo com que ela fique alinhada*/
+  margin-top: 20px; /* */
 }
 
 

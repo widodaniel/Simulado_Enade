@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(217, 233, 241);
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: block;
+    text-align: center;
+    margin: 5rem;
+    height: 180vh;
+    background-color: white;
+}
+
+#titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+}
+
+.subtitulo {
+    margin-top: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px
+}
+
+
+p {
+    margin-top: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+#lista-instrucoes {  
+    margin-top: 10vh;
+    display: inline-block;
+}
+
+#lista-instrucoes li {
+    list-style-type: decimal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+#teste {
+    margin: 2rem;
+    width: 60%;
+}
+
+.button-simulado { /* Estilizando o botão*/
+    padding: 10px; /* Colocando uma margin interna geral de 10px*/
+    background-color: rgb(0, 73, 136); /* Colocando cor nele*/
+    color: white; /* Cor no nome do botão*/
+    border-radius: 10px; /* Arredondando os cantos*/
+    font-size: 20px; /* Tamanho da fonte*/
+    margin: 2%; /* Margin externa de 2% geral*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Colocando a fonte ARIAL*/
+  }
