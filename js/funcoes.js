@@ -91,7 +91,7 @@ function Q6A() {
         alert('VOCÊ ACERTOU! A resposta é: "I e II, apenas."')
     }
     else {
-        alert('VOCÊ ACERTOU! A resposta correta é: "I e II, apenas."')
+        alert('VOCÊ ERROU! A resposta correta é: "I e II, apenas."')
     }
 }
 
@@ -104,10 +104,10 @@ function Q7A() {
     var opE = document.getElementById("opE");
 
     if (opE.checked==true) {
-        alert("VOCÊ ACERTOU! A resposta é: l, II e III.")
+        alert("VOCÊ ACERTOU! A resposta é: I, II e III.")
     }
     else {
-        alert("VOCÊ ERROU, A resposta correta é: l, II e III.")
+        alert("VOCÊ ERROU! A resposta correta é: I, II e III.")
     }
 }
 
@@ -123,7 +123,7 @@ function Q8A() {
         alert("VOCÊ ACERTOU! A resposta é: tanto o espaço urbano quanto o rural sofreram transformações decorrentes da aplicação de novas tecnologias às atividades industriais e agrícolas.")
     }
     else {
-        alert("VOCÊ ERROU. A resposta correta é: tanto o espaço urbano quanto o rural sofreram transformações decorrentes da aplicação de novas tecnologias às atividades industriais e agrícolas.")
+        alert("VOCÊ ERROU! A resposta correta é: tanto o espaço urbano quanto o rural sofreram transformações decorrentes da aplicação de novas tecnologias às atividades industriais e agrícolas.")
     }
 }
 
@@ -136,10 +136,10 @@ function Q9A() {
     var opE = document.getElementById("opE");
 
     if (opA.checked==true) {
-        alert("VOCÊ ACERTOU! A respostas é: devem ser inseridas no planejamento do projeto, uma vez que a empresa é a responsável pela implantação do software (a terceirização foi uma opção da própria empresa).")
+        alert("VOCÊ ACERTOU! A resposta é: devem ser inseridas no planejamento do projeto, uma vez que a empresa é a responsável pela implantação do software (a terceirização foi uma opção da própria empresa).")
     }
     else {
-        alert("VOCÊ ERROU. A resposta correta é: devem ser inseridas no planejamento do projeto, uma vez que a empresa é a responsável pela implantação do software (a terceirização foi uma opção da própria empresa).")
+        alert("VOCÊ ERROU! A resposta correta é: devem ser inseridas no planejamento do projeto, uma vez que a empresa é a responsável pela implantação do software (a terceirização foi uma opção da própria empresa).")
     }
 }
 
@@ -155,7 +155,7 @@ function Q10A() {
         alert("VOCÊ ACERTOU! A respostas é: A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.")
     }
     else {
-        alert("VOCÊ ERROU. A resposta correta é: A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.")
+        alert("VOCÊ ERROU! A resposta correta é: A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.")
     }
 }
 
@@ -171,7 +171,7 @@ function Q11A() {
         alert("VOCÊ ACERTOU! A resposta é a alternativa A.")
     }
     else {
-        alert("VOCÊ ERROU, A resposta correta é a alternativa A.")
+        alert("VOCÊ ERROU! A resposta correta é a alternativa A.")
     }
 }
 
@@ -216,10 +216,10 @@ function Q14A() {
     var opE = document.getElementById("opE");
 
     if (opA.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "l, apenas."')
+        alert('VOCÊ ACERTOU! A resposta é: "I, apenas."')
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "l, apenas."')
+        alert('VOCÊ ERROU! A resposta correta é: "I, apenas."')
     }
 }
 
@@ -280,10 +280,10 @@ function Q18A() {
     var opE = document.getElementById("opE");
 
     if (opC.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "I e II, apenas. "')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa C")
+        alert('VOCÊ ERROU! A resposta correta é: "I e II, apenas."')
     }
 }
 
@@ -296,10 +296,10 @@ function Q19A() {
     var opE = document.getElementById("opE");
 
     if (opB.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "III, apenas."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa B")
+        alert('VOCÊ ERROU! A resposta correta é: "III, apenas."')
     }
 }
 
@@ -312,10 +312,10 @@ function Q20A() {
     var opE = document.getElementById("opE");
 
     if (opD.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "0,3,1,5,7,8,2"')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa D")
+        alert('VOCÊ ERROU! A resposta correta é: "0,3,1,5,7,8,2"')
     }
 }
 
@@ -328,10 +328,10 @@ function Q21A() {
     var opE = document.getElementById("opE");
 
     if (opA.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "I, II e III."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa A")
+        alert('VOCÊ ERROU! A resposta correta é: "I, II e III."')
     }
 }
 
@@ -344,10 +344,10 @@ function Q22A() {
     var opE = document.getElementById("opE");
 
     if (opE.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "restrições de integridade semântica."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa A")
+        alert('VOCÊ ERROU! A resposta correta é: "restrições de integridade semântica."')
     }
 }
 
@@ -360,10 +360,10 @@ function Q23A() {
     var opE = document.getElementById("opE");
 
     if (opD.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "II e III, apenas."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa D")
+        alert('VOCÊ ERROU! A resposta correta é: "II e III, apenas."')
     }
 }
 
@@ -376,10 +376,10 @@ function Q24A() {
     var opE = document.getElementById("opE");
 
     if (opB.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert("VOCÊ ACERTOU! A resposta é: 'Na fase de Elaboração, no fluxo de Análise e Design.'")
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa B")
+        alert("VOCÊ ERROU! A resposta correta é: 'Na fase de Elaboração, no fluxo de Análise e Design.'")
     }
 }
 
@@ -392,10 +392,10 @@ function Q25A() {
     var opE = document.getElementById("opE");
 
     if (opC.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert("VOCÊ ACERTOU! A resposta é: 'Usabilidade, segurança, desempenho e confiabilidade.'")
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa C")
+        alert("VOCÊ ERROU! A resposta correta é: 'Usabilidade, segurança, desempenho e confiabilidade.'")
     }
 }
 
@@ -408,10 +408,10 @@ function Q26A() {
     var opE = document.getElementById("opE");
 
     if (opD.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert("VOCÊ ACERTOU! A resposta é: 'I, III e IV.'")
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa D")
+        alert("VOCÊ ERROU! A resposta correta é: 'I, III e IV.'")
     }
 }
 
@@ -424,10 +424,10 @@ function Q27A() {
     var opE = document.getElementById("opE");
 
     if (opE.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert("VOCÊ ACERTOU! A resposta é: '8 e 8.'")
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa E")
+        alert("VOCÊ ERROU! A resposta correta é: '8 e 8.'")
     }
 }
 
@@ -440,14 +440,14 @@ function Q28A() {
     var opE = document.getElementById("opE");
 
     if (opE.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert("VOCÊ ACERTOU! A resposta é: 'I, II e III.'")
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa E")
+        alert("VOCÊ ERROU! A resposta correta é: 'I, II e III.'")
     }
 }
 
-function Q20A() {
+function Q29A() {
 
     var opA = document.getElementById("opA");
     var opB = document.getElementById("opB");
@@ -472,10 +472,10 @@ function Q30A() {
     var opE = document.getElementById("opE");
 
     if (opD.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "II e III, apenas."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa D")
+        alert('VOCÊ ERROU! A resposta correta é: "II e III, apenas."')
     }
 }
 
@@ -488,10 +488,10 @@ function Q31A() {
     var opE = document.getElementById("opE");
 
     if (opC.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "I e II, apenas."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa C")
+        alert('VOCÊ ERROU! A resposta correta é: "I e II, apenas."')
     }
 }
 
@@ -504,10 +504,10 @@ function Q32A() {
     var opE = document.getElementById("opE");
 
     if (opE.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "I, II e III."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa E")
+        alert('VOCÊ ERROU! A resposta correta é: "I, II e III."')
     }
 }
 
@@ -520,10 +520,10 @@ function Q33A() {
     var opE = document.getElementById("opE");
 
     if (opB.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "I,II e IV."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa B")
+        alert('VOCÊ ERROU! A resposta correta é: "I,II e IV."')
     }
 }
 
@@ -536,10 +536,10 @@ function Q34A() {
     var opE = document.getElementById("opE");
 
     if (opD.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "20 dias."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa D")
+        alert('VOCÊ ERROU! A resposta correta é: "20 dias."')
     }
 }
 
@@ -552,16 +552,16 @@ function Q35A() {
     var opE = document.getElementById("opE");
 
     if (opB.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "o time X venceu o último jogo e o time Y não é campeão."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa B")
+        alert('VOCÊ ERROU! A resposta correta é: "o time X venceu o último jogo e o time Y não é campeão."')
     }
 }
 
-function QEscrita() {
-    alert("Sua resposta vai ser avalida posteriormente!!")
-}
+// function QEscrita() {
+//     alert("Sua resposta vai ser avalida posteriormente!!")
+// }
 
 function finalizar() {
     alert("A função FINALIZAR, será implementada posteriormente!!")
