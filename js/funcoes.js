@@ -104,10 +104,10 @@ function Q7A() {
     var opE = document.getElementById("opE");
 
     if (opE.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert("VOCÊ ACERTOU! A resposta é: l, II e III.")
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa E")
+        alert("VOCÊ ERROU, A resposta correta é: l, II e III.")
     }
 }
 
@@ -120,10 +120,10 @@ function Q8A() {
     var opE = document.getElementById("opE");
 
     if (opD.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert("VOCÊ ACERTOU! A resposta é: tanto o espaço urbano quanto o rural sofreram transformações decorrentes da aplicação de novas tecnologias às atividades industriais e agrícolas.")
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa D")
+        alert("VOCÊ ERROU. A resposta correta é: tanto o espaço urbano quanto o rural sofreram transformações decorrentes da aplicação de novas tecnologias às atividades industriais e agrícolas.")
     }
 }
 
@@ -136,10 +136,10 @@ function Q9A() {
     var opE = document.getElementById("opE");
 
     if (opA.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert("VOCÊ ACERTOU! A respostas é: devem ser inseridas no planejamento do projeto, uma vez que a empresa é a responsável pela implantação do software (a terceirização foi uma opção da própria empresa).")
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa A")
+        alert("VOCÊ ERROU. A resposta correta é: devem ser inseridas no planejamento do projeto, uma vez que a empresa é a responsável pela implantação do software (a terceirização foi uma opção da própria empresa).")
     }
 }
 
@@ -152,10 +152,10 @@ function Q10A() {
     var opE = document.getElementById("opE");
 
     if (opC.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert("VOCÊ ACERTOU! A respostas é: A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.")
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa C")
+        alert("VOCÊ ERROU. A resposta correta é: A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.")
     }
 }
 
@@ -168,10 +168,10 @@ function Q11A() {
     var opE = document.getElementById("opE");
 
     if (opA.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert("VOCÊ ACERTOU! A resposta é a alternativa A.")
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa A")
+        alert("VOCÊ ERROU, A resposta correta é a alternativa A.")
     }
 }
 
@@ -184,10 +184,10 @@ function Q12A() {
     var opE = document.getElementById("opE");
 
     if (opC.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "Plano de contingência."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa C")
+        alert('VOCÊ ERROU! A resposta correta é: "Plano de contingência."')
     }
 }
 
@@ -200,10 +200,10 @@ function Q13A() {
     var opE = document.getElementById("opE");
 
     if (opB.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa B")
+        alert('VOCÊ ERROU! A resposta correta é: "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I."')
     }
 }
 
@@ -216,10 +216,10 @@ function Q14A() {
     var opE = document.getElementById("opE");
 
     if (opA.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "l, apenas."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa A")
+        alert('VOCÊ ERROU! A resposta correta é: "l, apenas."')
     }
 }
 
@@ -232,10 +232,10 @@ function Q15A() {
     var opE = document.getElementById("opE");
 
     if (opA.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "A transparência entre as entidades do sistema."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa A")
+        alert('VOCÊ ERROU! A resposta correta é: "A transparência entre as entidades do sistema."')
     }
 }
 
@@ -248,10 +248,10 @@ function Q16A() {
     var opE = document.getElementById("opE");
 
     if (opC.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "13."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa C")
+        alert('VOCÊ ERROU! A resposta correta é: "13."')
     }
 }
 
@@ -264,10 +264,10 @@ function Q17A() {
     var opE = document.getElementById("opE");
 
     if (opB.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "I e IV."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa B")
+        alert('VOCÊ ERROU! A resposta correta é: "I e IV."')
     }
 }
 
