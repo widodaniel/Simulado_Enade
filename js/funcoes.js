@@ -8,10 +8,10 @@ function Q1A() {
     var opE = document.getElementById("opE");
 
     if (opA.checked==true) { // Opção correta
-        alert("VOCÊ ACERTOU!!") // Pop-up
+        alert('VOCÊ ACERTOU! A resposta é: "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa A")
+        alert('VOCÊ ERROU! A resposta correta é: "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I."')
     }
 }
 
@@ -24,10 +24,10 @@ function Q2A() {
     var opE = document.getElementById("opE");
 
     if (opC.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "I e III, apenas."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa C")
+        alert('VOCÊ ERROU! A resposta correta é: "I e III, apenas."')
     }
 }
 
@@ -40,10 +40,10 @@ function Q3A() {
     var opE = document.getElementById("opE");
 
     if (opE.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "tendência a desequilíbrio gradual e contínuo da sustentabilidade do planeta."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa E")
+        alert('VOCÊ ERROU! A resposta correta é: "tendência a desequilíbrio gradual e contínuo da sustentabilidade do planeta."')
     }
 }
 
@@ -56,10 +56,10 @@ function Q4A() {
     var opE = document.getElementById("opE");
 
     if (opB.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "empresas e instituições estão atentas ao comportamento de seus funcionários em websites de redes sociais."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa B")
+        alert('VOCÊ ERROU! A resposta correta é: "empresas e instituições estão atentas ao comportamento de seus funcionários em websites de redes sociais."')
     }
 }
 
@@ -72,10 +72,10 @@ function Q5A() {
     var opE = document.getElementById("opE");
 
     if (opD.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "I, III e IV."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa D")
+        alert('VOCÊ ERROU! A resposta correta é: "I, III e IV."')
     }
 }
 
@@ -88,10 +88,10 @@ function Q6A() {
     var opE = document.getElementById("opE");
 
     if (opC.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        alert('VOCÊ ACERTOU! A resposta é: "I e II, apenas."')
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa C")
+        alert('VOCÊ ACERTOU! A resposta correta é: "I e II, apenas."')
     }
 }
 
