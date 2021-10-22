@@ -64,13 +64,12 @@
         </div>
         <form id="form" action="" method="get"> <!-- Inicio do formulário-->
             <div id="container-respostas"> 
-                <div class="respostas">
+                <div id="Q11" class="respostas">
                     <ul class="ul_respostas"><!-- Utilizando a lista não ordenada para deixar uma alternativa embaixo da outra-->
                         <li> 
                             A) 
                             <label for="opcaoA" class="labelRespostas"> <!-- A tag <label> está sendo usada como uma "legenda" para a alternativa-->
-                                <input id="opA" type="radio" name="opcao" value="opcaoA"> <!-- A tag input com o atributo radio, faz os botões de opções, os atributos name e value são indispensaveis, pois eles são utilizados no JavaScript para dizer se alternativa está correta ou não-->
-                                <br>
+                                <input id="opA" type="radio" name="opcao" value="opcaoA"> <!-- A tag input com o atributo radio, faz os botões de opções, os atributos name e value são indispensaveis, pois eles são utilizados no JavaScript para dizer se alternativa está correta ou não-->                                 
                                 select titulo from livro<br>
                                 except<br>
                                 select l.titulo from emprestimo e inner join livro l<br>
@@ -81,8 +80,7 @@
                         <li>
                             B)
                             <label for="opcaoB" id="teste" class="labelRespostas">
-                                <input id="opB" type="radio" name="opcao" value="opcaoB">
-                                <br>
+                                <input id="opB" type="radio" name="opcao" value="opcaoB">                            
                                 select titulo from livro<br>
                                 union<br>
                                 select l.titulo from emprestimo e inner join livro l<br>
@@ -93,7 +91,6 @@
                             C)
                             <label for="opcaoC" class="labelRespostas">
                                 <input id="opC" type="radio" name="opcao" value="opcaoC">
-                                <br>
                                 select titulo from livro<br>
                                 except<br>
                                 select l.titulo from emprestimo e inner join livro l<br>
@@ -104,7 +101,6 @@
                             D)
                             <label for="opcaoD" class="labelRespostas">
                                 <input id="opD" type="radio" name="opcao" value="opcaoD">
-                                <br>
                                 select titulo from livro<br>
                                 union select l.titulo from emprestimo e left join livro l<br>
                                 on e.livro_cod = l.liv_cod where e.data_dev is null  <!-- TROCA O TEXTO-->
@@ -114,7 +110,6 @@
                             E)
                             <label for="opcaoE" class="labelRespostas">
                                 <input id="opE" type="radio" name="opcao" value="opcaoE">
-                                <br>
                                 select titulo from livro<br>
                                 except<br>
                                 select l.titulo from emprestimo e right join livro l<br>

@@ -68,4 +68,9 @@ h2 {
     font-size: 20px; /* Tamanho da fonte*/
     margin: 2%; /* Margin externa de 2% geral*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Colocando a fonte ARIAL*/
-  }
+}
+
+
+.button-simulado:hover {
+    background-color: orange;
+}
