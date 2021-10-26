@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="imagem/png" href="img/it.png"/>
     <link rel="stylesheet" type="text/css" href="css/questoes_.multipla.css">
+    <script src="js/foda.js" defer type="text/javascript"></script>
     <script src="js/funcoes.js" type="text/javascript">
         
     </script>
     <title>Q20A</title>
 </head>
-<body>
+<body onchange="salvarFormulario('Q20')" onload="autofill('Q20')">
     <header> <img id="logo1" src="img/enade.header.png" alt="logoEnade" draggable="false"></header>
     <div class="container-nav-questoes">
         <div id="nav-questoes">
@@ -69,35 +70,35 @@
                         <li>
                             A)
                             <label for="opcaoA" class="labelRespostas">
-                                <input id="opA" type="radio" name="opcao" value="opcaoA" id="">
+                                <input id="opA" type="radio" name="opcao" value="A" id="">
                                 5,3,8,0,1,7,2
                             </label>
                         </li>
                         <li>
                             B)
                             <label for="opcaoB" id="teste" class="labelRespostas">
-                                <input id="opB" type="radio" name="opcao" value="opcaoB" id="">
+                                <input id="opB" type="radio" name="opcao" value="B" id="">
                                 0,1,7,2,3,8,5
                             </label>    
                         </li>
                         <li>
                             C)
                             <label for="opcaoC" class="labelRespostas">
-                                <input id="opC" type="radio" name="opcao" value="opcaoC" id="">
+                                <input id="opC" type="radio" name="opcao" value="C" id="">
                             0,3,5,1,7,8,2
                             </label>
                         </li>
                         <li>
                             D)
                             <label for="opcaoD" class="labelRespostas">
-                                <input id="opD" type="radio" name="opcao" value="opcaoD" id="">
+                                <input id="opD" type="radio" name="opcao" value="D" id="">
                             0,3,1,5,7,8,2
                             </label>
                         </li>
                         <li>
                             E)
                             <label for="opcaoE" class="labelRespostas">
-                                <input id="opE" type="radio" name="opcao" value="opcaoE" id="">
+                                <input id="opE" type="radio" name="opcao" value="E" id="">
                             2,7,8,5,0,3,1
                             </label>
                         </li>
@@ -106,7 +107,7 @@
             </div>
             <div class="button">
                 <!--<button class="btn-voltar">VOLTAR</button> Botão para futuras alterações-->
-                <a href="Q21A_EQ2.html"><input type="button" value="PRÓXIMO" class="btn-prox" onclick="Q20A()"></a>
+                <button onclick="Q20A(),correcao()" formaction="Q21A_EQ2.html"class="btn-prox">PRÓXIMO</button>
                 <button class="btn-prox" onclick="finalizar()">FINALIZAR</button>
             </div>
         </form>

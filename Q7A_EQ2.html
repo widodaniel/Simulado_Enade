@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="imagem/png" href="img/it.png"/>
     <link rel="stylesheet" type="text/css" href="css/questoes_.multipla.css">
+    <script src="js/foda.js" defer type="text/javascript"></script>
     <script src="js/funcoes.js" type="text/javascript"> // Aqui vai a link do Javascript dentro do src mostra o caminho dele
         
     </script>
     <title>Q7A</title> <!-- TROCA O TITULO PARA O DA SUA QUESTÃO EX: QUESTAO 1 = Q1A-->
 </head>
-<body>
+<body onchange="salvarFormulario('Q7')" onload="autofill('Q7')">
     <header> <img id="logo1" src="img/enade.header.png" alt="LogoEnade" draggable="false"></header> <!-- Aqui dentro do IMG utilizamos o atributo draggable que serve para a imagem não ser selecionada-->
     <div class="container-nav-questoes"> <!-- Container da barra de navegação para podermos ajeitar adequadamente os objetos-->
         <div id="nav-questoes"> 
@@ -69,7 +70,7 @@
                         <li> 
                             A) 
                             <label for="opcaoA" class="labelRespostas"> <!-- A tag <label> está sendo usada como uma "legenda" para a alternativa-->
-                                <input id="opA" type="radio" name="opcao" value="opcaoA"> <!-- A tag input com o atributo radio, faz os botões de opções, os atributos name e value são indispensaveis, pois eles são utilizados no JavaScript para dizer se alternativa está correta ou não-->
+                                <input id="opA" type="radio" name="opcao" value="A"> <!-- A tag input com o atributo radio, faz os botões de opções, os atributos name e value são indispensaveis, pois eles são utilizados no JavaScript para dizer se alternativa está correta ou não-->
                                 l, apenas.
                                 <!-- Para alterar as alternativas, troque o texto acima, em todas as opções-->
                             </label>
@@ -77,28 +78,28 @@
                         <li>
                             B)
                             <label for="opcaoB" id="teste" class="labelRespostas">
-                                <input id="opB" type="radio" name="opcao" value="opcaoB">
+                                <input id="opB" type="radio" name="opcao" value="B">
                                 III, apenas. <!-- TROCA O TEXTO-->
                             </label>    
                         </li>
                         <li>
                             C)
                             <label for="opcaoC" class="labelRespostas">
-                                <input id="opC" type="radio" name="opcao" value="opcaoC">
+                                <input id="opC" type="radio" name="opcao" value="C">
                                 l e II, apenas. <!-- TROCA O TEXTO-->
                             </label>
                         </li>
                         <li>
                             D)
                             <label for="opcaoD" class="labelRespostas">
-                                <input id="opD" type="radio" name="opcao" value="opcaoD">
+                                <input id="opD" type="radio" name="opcao" value="D">
                                 II e III, apenas.  <!-- TROCA O TEXTO-->
                             </label>
                         </li>
                         <li>
                             E)
                             <label for="opcaoE" class="labelRespostas">
-                                <input id="opE" type="radio" name="opcao" value="opcaoE">
+                                <input id="opE" type="radio" name="opcao" value="E">
                                 l, II e III. <!-- TROCA O TEXTO-->
                             </label>
                         </li>
@@ -107,8 +108,8 @@
             </div>
             <div class="button"> <!-- Div para deixar o botão alinhado da forma correta-->
                 <!--<button class="btn-voltar">VOLTAR</button> Botão para futuras alterações-->                                 <!-- TROCA O ONCLICK PARA O NÚMERO DA QUESTÃO EX: QUESTÃO 10 então vai ser Q10A()-->
-               <!-- TROCAR O LINK DA TAG <a> direcionando para a prox pagina--> <a href="Q8A_EQ2.html"><input type="button" value="PRÓXIMO" class="btn-prox" onclick="Q7A()"></a> <!-- tag <a> usada para redirecionar para a proxima página, a tag <input> está sendo utilizada como botão com os atributos value="" que nada mais é do que o texto que vai aparecer nele, o class="" serve para estilizar ele, já o onclick="" é um evento do JavaScript utilizada para ativar a função especificada-->
-                <button class="btn-prox" onclick="finalizar()">FINALIZAR</button>
+               <button onclick="Q7A(),correcao()" formaction="Q8A_EQ2.html"class="btn-prox">PRÓXIMO</button>
+               <button class="btn-prox" onclick="finalizar()">FINALIZAR</button>
             </div>
         </form>
     </div>
