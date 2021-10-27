@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="imagem/png" href="img/it.png"/>
     <link rel="stylesheet" type="text/css" href="css/questoes_.multipla.css">
+    <script src="js/foda.js" defer type="text/javascript"></script>
     <script src="js/funcoes.js" type="text/javascript"> // Aqui vai a link do Javascript dentro do src mostra o caminho dele
         
     </script>
     <title>Q29A</title>
 </head>
-<body>
+<body onchange="salvarFormulario('Q29')" onload="autofill('Q29')">
     <header> <img id="logo1" src="img/enade.header.png" alt="logoEnade" draggable="false"></header> <!-- Aqui dentro do IMG utilizamos o atributo draggable que serve para a imagem não ser selecionada-->
     <div class="container-nav-questoes"> <!-- Container da barra de navegação para podermos ajeitar adequadamente os objetos-->
         <div id="nav-questoes"> 
@@ -70,7 +71,7 @@
                         <li> 
                             A) 
                             <label for="opcaoA" class="labelRespostas"> <!-- A tag <label> está sendo usada como uma "legenda" para a alternativa-->
-                                <input id="opA" type="radio" name="opcao" value="opcaoA"> <!-- A tag input com o atributo radio, faz os botões de opções, os atributos name e value são indispensaveis, pois eles são utilizados no JavaScript para dizer se alternativa está correta ou não-->
+                                <input id="opA" type="radio" name="opcao" value="A"> <!-- A tag input com o atributo radio, faz os botões de opções, os atributos name e value são indispensaveis, pois eles são utilizados no JavaScript para dizer se alternativa está correta ou não-->
                                 <img src="img/Q29_OP_A.jpg" alt="" class="img-respostas">
                                 <!-- Para alterar as alternativas, troque o texto acima, em todas as opções-->
                             </label>
@@ -78,28 +79,28 @@
                         <li>
                             B)
                             <label for="opcaoB" id="teste" class="labelRespostas">
-                                <input id="opB" type="radio" name="opcao" value="opcaoB">
+                                <input id="opB" type="radio" name="opcao" value="B">
                                 <img src="img/Q29_OP_B.jpg" alt="" class="img-respostas">
                             </label>    
                         </li>
                         <li>
                             C)
                             <label for="opcaoC" class="labelRespostas">
-                                <input id="opC" type="radio" name="opcao" value="opcaoC">
+                                <input id="opC" type="radio" name="opcao" value="C">
                                 <img src="img/Q29_OP_C.jpg" alt="" class="img-respostas">
                             </label>
                         </li>
                         <li>
                             D)
                             <label for="opcaoD" class="labelRespostas">
-                                <input id="opD" type="radio" name="opcao" value="opcaoD">
+                                <input id="opD" type="radio" name="opcao" value="D">
                                 <img src="img/Q29_OP_D.jpg" alt="" class="img-respostas">
                             </label>
                         </li>
                         <li>
                             E)
                             <label for="opcaoE" class="labelRespostas">
-                                <input id="opE" type="radio" name="opcao" value="opcaoE">
+                                <input id="opE" type="radio" name="opcao" value="E">
                                 <img src="img/Q29_OP_E.jpg" alt="" class="img-respostas">
                             </label>
                         </li>
@@ -108,8 +109,8 @@
             </div>
             <div class="button"> <!-- Div para deixar o botão alinhado da forma correta-->
                 <!--<button class="btn-voltar">VOLTAR</button> Botão para futuras alterações-->
-                <a href="Q30A_EQ2.html"><input type="button" value="PRÓXIMO" class="btn-prox" onclick="Q29A()"></a> <!-- tag <a> usada para redirecionar para a proxima página, a tag <input> está sendo utilizada como botão com os atributos value="" que nada mais é do que o texto que vai aparecer nele, o class="" serve para estilizar ele, já o onclick="" é um evento do JavaScript utilizada para ativar a função especificada-->
-                    <button class="btn-prox" onclick="finalizar()">FINALIZAR</button>
+                <button onclick="Q29A(),correcao()" formaction="Q30A_EQ2.html"class="btn-prox">PRÓXIMO</button>
+                <button class="btn-prox" onclick="finalizar()">FINALIZAR</button>
             </div>
         </form>
     </div>
