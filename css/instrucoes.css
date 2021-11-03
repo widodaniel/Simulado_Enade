@@ -35,9 +35,10 @@ body {
 
 
 p {
-    margin-top: 1rem;
+    margin: 2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
+    text-align: justify;
 }
 
 #lista-instrucoes {  
@@ -66,7 +67,7 @@ h2 {
     color: white; /* Cor no nome do botão*/
     border-radius: 10px; /* Arredondando os cantos*/
     font-size: 20px; /* Tamanho da fonte*/
-    margin: 2%; /* Margin externa de 2% geral*/
+    margin-top: 3rem; /* Margin externa de 2% geral*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Colocando a fonte ARIAL*/
 }
 

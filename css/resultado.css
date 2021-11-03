@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(217, 233, 241);
+    display: flex;
+    flex-direction: column;
+}
+
+header { /* Definindo a tag header*/
+    background-color: rgb(0, 73, 136); /* Passando uma cor para o header*/
+    margin: none; /* Deixando sem margin*/
+    height: 40px;  /* E colocando uma altura de 40px nele*/
+}
+
+#logo_enade { /* Imagem ENADE*/
+    width: 105px; /* Definindo uma largura de 105px para ela*/
+    -webkit-user-drag: none; /* Defindo um WebKit que nada mais é do que um suporte automático, neste caso estamos colocando ele para que a imagem não seja manipulada*/
+    
+}
+
+#logo_inep  { /* Imagem INEP */
+    width: 80px; /*  Definindo a largura de 80px*/
+    -webkit-user-drag: none; /* Defindo um WebKit que nada mais é do que um suporte automático, neste caso estamos colocando ele para que a imagem não seja manipulada*/
+}
+
+#logo_enade_completo { /*  Div logo ENADE*/
+    background-color: white; /*  Colocando cor na DIV*/
+    text-align: center; /* Alinhando o item da DIV ao centro nessa caso a imagem*/
+    -webkit-user-drag: none; /* Defindo um WebKit que nada mais é do que um suporte automático, neste caso estamos colocando ele para que a imagem não seja manipulada*/
+    padding: 3px; /* Definindo um espaçamento interno de 3px*/
+    margin: none; /* Deixando sem margin*/
+}
+
+.container {
+    display: block;
+    text-align: center;
+    margin: 5rem;
+    height: 180vh;
+    background-color: white;
+}
+
+#titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+}
+
+.subtitulo {
+    margin-top: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px
+}
+
+
+p {
+    margin-top: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+#lista-instrucoes {  
+    margin-top: 10vh;
+    display: inline-block;
+}
+
+#lista-instrucoes li {
+    list-style-type: decimal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+#teste {
+    margin: 2rem;
+    width: 60%;
+}
+
+.button-simulado { /* Estilizando o botão*/
+    padding: 10px; /* Colocando uma margin interna geral de 10px*/
+    background-color: rgb(0, 73, 136); /* Colocando cor nele*/
+    color: white; /* Cor no nome do botão*/
+    border-radius: 10px; /* Arredondando os cantos*/
+    font-size: 20px; /* Tamanho da fonte*/
+    margin: 2%; /* Margin externa de 2% geral*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Colocando a fonte ARIAL*/
+}
+
+
+.button-simulado:hover {
+    background-color: orange;
+}
+
+
+#mostrarResultado{
+    border-radius: 1rem;
+    margin-left: 31.7%;
+    border: solid 1px black;
+    text-align: center;
+    width: 70vh;
+    background-color: white;
+    margin-top: 10%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    flex-shrink: 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: 20px;
+    background-color: rgb(0, 73, 136);
+    margin:0;
+    padding:0;
+    font-size: 17px;
+    color: white;
+  }
+
+footer a {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+.btn-prox{
+    padding: 10px;
+    background-color: rgb(0, 73, 136);
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input.btn-prox:hover {
+    background-color: rgb(39, 6, 224);
+}
+
+.button{
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#acertos {
+    font-size: 30px;
+}

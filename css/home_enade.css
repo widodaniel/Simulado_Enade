@@ -6,7 +6,7 @@
 body { /* Definindo a tag body*/
   background: rgb(217, 233, 241); /* Colocando uma cor de fundo para a página*/
   height: 100%;   /* Delimitando uma altura de 100% da página*/
-  font-family: Arial, Helvetica, sans-serif; /* Deixando todo o contéudo da tag body com esse estilo de fonte*/
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Deixando todo o contéudo da tag body com esse estilo de fonte*/
 }
 
 header { /* Definindo a tag header*/
@@ -41,7 +41,8 @@ header { /* Definindo a tag header*/
 } */
 
 .paragrafos { /* Definindo os paragrafos*/
-  font-family: Arial, Helvetica, sans-serif; /* Definindo a fonte*/
+   /* Definindo a fonte*/
+  font-size: 20px;
   text-align: justify; /* Deixando os textos justificados*/
   margin-left: 315px; /* Colocando uma margin a esquerda de 315px*/
   margin-right: 315px; /* O mesmo fazendo para a margin da direita fazendo com que ela fique alinhada*/
@@ -50,7 +51,8 @@ header { /* Definindo a tag header*/
 }
 
 .p-fonte { /* Definindo os paragrafos*/
-  font-family: Arial, Helvetica, sans-serif; /* Definindo a fonte*/
+   /* Definindo a fonte*/
+  font-size: 20px;
   text-align: justify; /* Deixando os textos justificados*/
   margin-left: 315px; /* Colocando uma margin a esquerda de 315px*/
   margin-right: 315px; /* O mesmo fazendo para a margin da direita fazendo com que ela fique alinhada*/
@@ -63,8 +65,8 @@ header { /* Definindo a tag header*/
 }
 
 
-.paragrafos1 { /* Definindo o paragrafos dos links*/
-  font-family: Arial, Helvetica, sans-serif; /* Colocando essa fonte para eles*/
+.paragrafos1 { /* Definindo o paragrafos dos links*/ /* Colocando essa fonte para eles*/
+  font-size: 20px;
   text-align: center;/* Deixando eles alinhados ao centro*/
   margin: 2%; /* E setando uma margin geral de 2%*/
 }
@@ -91,7 +93,7 @@ h2 { /* Definindo tag H2*/
   border-radius: 10px; /* Arredondando os cantos*/
   font-size: 20px; /* Tamanho da fonte*/
   margin: 2%; /* Margin externa de 2% geral*/
-  font-family: Arial, Helvetica, sans-serif; /* Colocando a fonte ARIAL*/
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Colocando a fonte ARIAL*/
 }
 
 .button-simulado:hover { /* Mudando a cor do botão ao passar o mouse por cima*/
