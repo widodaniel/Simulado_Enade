@@ -132,7 +132,3 @@ function resultado() {
 function reset() {
     sessionStorage.clear()
 }
-
-function finalizar() {
-    alert("Caso queira finalizar e necessário que responda todas as questões")
-}
