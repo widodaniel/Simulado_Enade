@@ -1,8 +1,3 @@
-function getCorrect() {
-
-    return document.getElementById("correta").value
-}
-
 function getChecked() {
     
     input = document.querySelectorAll('input')
@@ -19,42 +14,25 @@ function getChecked() {
     }
 }
 
-function correcao() {
-    entrada = getChecked()
-    correta = getCorrect()
-
-    console.log("Entrada: ", getChecked())
-    console.log("Correta: ", getCorrect())
-
-    // if(entrada == correta) {
-        // document.getElementById("display").innerHTML = "Parabéns, você acertou!" // não será utilziada no momento
-        // document.getElementById("display").style.display = "block"
-    // }
-    // else {
-        // document.getElementById("display").innerHTML = "Você errou !!" // não será utilziada no momento
-    // document.getElementById("display").style.display = "block"
-    // }
-}
-
-function sobreEscrever(objeto, id, index) {
+function sobreEscrever(objeto, id, index) { // Substitui a alternativa
     
     memoriaSplit = memoria.split(" ")
     
-    memoriaSplit[index] = `${id}:${entrada}`
+    memoriaSplit[index] = `${id}:${entrada}`// id = Questão e Entrada = Alternativa selecionada
 
     return memoriaSplit.join(" ")
 }
 
-function escrever(objeto, id) {
+function escrever(objeto, id) { // Aqui grava caso não haja substituição
     
     memoriaSplit = memoria.split(" ")
     
-    memoriaSplit.push(`${id}:${entrada}`)
+    memoriaSplit.push(`${id}:${entrada}`) // Push adiciona ao final do vetor o item informado
 
     return memoriaSplit.join(" ")
 }
 
-function gravar(oQueGravar) {
+function gravar(oQueGravar) { // Grava a subsituição da alternativa
 
     sessionStorage.setItem("respostas", oQueGravar)
 }
@@ -93,7 +71,7 @@ function salvarFormulario(id) {
 }
 
 function autofill(id) {
-    memoria = sessionStorage.getItem("respostas")
+    memoria = sessionStorage.getItem("respostas") // Pega as respostas
         
         memoriaSplit = memoria.split(" ")
 
@@ -103,7 +81,9 @@ function autofill(id) {
 
                 toFill = memoriaSplit[c].split(":")[1]
 
-                document.querySelectorAll(`input[value="${toFill}"]`).checked = true
+                console.log(toFill)
+
+                document.querySelector(`input[value="${toFill}"]`).checked = true // Alterar para o querySelector
                 break
             }
         }
@@ -120,15 +100,19 @@ function resultado() {
 
 
     for(c = 0; c < quebrar.length; c++) {
-        if(gabarito.indexOf(quebrar[c]) > - 1) {
+        if(gabarito.indexOf(quebrar[c]) > - 1) { // IndexOf retorna 0 caso encontre e -1 caso não encontre
             corretas++;
         }
     }
     console.log(corretas)
     
+
+
     document.getElementById("acertos").innerHTML = `Você acertou: ${corretas} / 35`
+    // document.getElementById("escolha").innerHTML = `Suas respostas: ${quebrar}`
 }
 
 function reset() {
     sessionStorage.clear()
 }
+
