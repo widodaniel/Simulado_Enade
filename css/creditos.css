@@ -74,3 +74,17 @@ footer { /* Definindo o rodapé para ficar fixo na parte de baixo da página*/
     color: orange;
 }
 
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-logo {
+   text-align: center;
+}
+
