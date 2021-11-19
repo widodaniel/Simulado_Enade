@@ -24,7 +24,7 @@ a {
 
 #p_fonte {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 13px;
+    font-size: 1vw;
 }
 
 
@@ -252,3 +252,8 @@ button.btn-voltar:hover {
     -webkit-user-drag: none;
 }
 
+@media (max-width: 520px) {
+    footer {
+        height: 20%;
+    }
+}
