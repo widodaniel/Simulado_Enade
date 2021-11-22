@@ -38,6 +38,7 @@ a {
 
 .conteudo {
     flex: 1 0 auto;
+    justify-content: center;
 }
 
 footer { /* Definindo o rodapé para ficar fixo na parte de baixo da página*/
@@ -95,13 +96,14 @@ header {
 }
 
 .respostas {
-   margin-right: 20%;
-   margin-left: 30%;
-   width: 35%;
+   display: flex;
+   justify-content: center;
+   
+   width: 100%;
 }
 
 
-#Q3 {
+/* #Q3 {
     margin-left: 33.5%;
 }
 
@@ -163,7 +165,7 @@ header {
 
 #Q29 {
     margin-left: 40%;
-}
+} */
 
 
 .ul_respostas {
@@ -230,7 +232,7 @@ li {
 } */
 
 .btn-prox{
-    margin-left: 50px;
+    margin-left: 1.8rem;
     padding: 10px;
     background-color: rgb(0, 73, 136);
     color: white;
@@ -252,8 +254,90 @@ button.btn-voltar:hover {
     -webkit-user-drag: none;
 }
 
+#pop-certo {
+    display: none;
+    border-radius: 20px;
+    position: absolute;
+    height: 30vh;
+    width: 50vw;
+    bottom: 32%;
+    margin-left: 25vw;
+    z-index: 1;
+    background-color: rgb(0, 73, 136);
+    color: white;
+}
+
+#pop-errado {
+    display: none;
+    border-radius: 20px;
+    position: absolute;
+    height: 30vh;
+    width: 50vw;
+    bottom: 32%;
+    margin-left: 25vw;
+    z-index: 1;
+    background-color: rgb(0, 73, 136);
+    color: white;
+}
+
+.correct-wrong {
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.imagem-pop {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.paragrafo-pop {
+    margin-top: 3rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+}
+
+.close-pop {
+    text-align: right;
+    background-color: rgb(0, 73, 136);
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
 @media (max-width: 520px) {
     footer {
         height: 20%;
+    }
+}
+
+@media (max-width: 1580px) {
+    #pop-certo {
+        display: none;
+        border-radius: 20px;
+        position: absolute;
+        height: 38vh;
+        width: 50vw;
+        bottom: 32%;
+        margin-left: 25vw;
+        z-index: 1;
+        background-color: rgb(0, 73, 136);
+        color: white;
+    }
+    
+    #pop-errado {
+        display: none;
+        border-radius: 20px;
+        position: absolute;
+        height: 38vh;
+        width: 50vw;
+        bottom: 32%;
+        margin-left: 25vw;
+        z-index: 1;
+        background-color: rgb(0, 73, 136);
+        color: white;
     }
 }

@@ -1,569 +1,631 @@
+function closeButton() {
+    var btn = document.getElementsByClassName("close-pop")
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+
+    if(btn[0]) {
+        popErrado.style.display = "none";
+    }if(btn[1]) {
+        popCerto.style.display = "none";
+    }
+}
+
 
 function Q1A() {
     
     var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
 
     if (opA.checked==true) { // Opção correta
-        alert('VOCÊ ACERTOU! A resposta é: "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I."')
+        respostaCorreta.innerHTML = 'A resposta é: "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I."';
+        popCerto.style.display = "block"
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I."')
+        respostaErrada.innerHTML = 'A resposta correta é: "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I."'
+        popErrado.style.display = "block";
     }
 }
 
-function Q2A() {
 
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
+function Q2A() {
     var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
 
     if (opC.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "I e III, apenas."')
+        respostaCorreta.innerHTML = 'A resposta é: "I e III, apenas."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "I e III, apenas."')
+        respostaErrada.innerHTML = 'A resposta correta é: "I e III, apenas."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q3A() {
-
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opE = document.getElementById("opE");
 
     if (opE.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "tendência a desequilíbrio gradual e contínuo da sustentabilidade do planeta."')
+        respostaCorreta.innerHTML = 'A resposta é: "tendência a desequilíbrio gradual e contínuo da sustentabilidade do planeta."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "tendência a desequilíbrio gradual e contínuo da sustentabilidade do planeta."')
+        respostaErrada.innerHTML = 'A resposta correta é: "tendência a desequilíbrio gradual e contínuo da sustentabilidade do planeta."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q4A() {
-
-    var opA = document.getElementById("opA");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opB.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "empresas e instituições estão atentas ao comportamento de seus funcionários em websites de redes sociais."')
+        respostaCorreta.innerHTML = 'A resposta é: "empresas e instituições estão atentas ao comportamento de seus funcionários em websites de redes sociais."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "empresas e instituições estão atentas ao comportamento de seus funcionários em websites de redes sociais."')
+        respostaErrada.innerHTML = 'A resposta correta é: "empresas e instituições estão atentas ao comportamento de seus funcionários em websites de redes sociais."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q5A() {
-
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opD.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "I, III e IV."')
+        respostaCorreta.innerHTML = ' A resposta é: "I, III e IV."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "I, III e IV."')
+        respostaErrada.innerHTML = 'A resposta é: "I, III e IV."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q6A() {
-
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opC.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "I e II, apenas."')
+        respostaCorreta.innerHTML = 'A resposta correta é: "I e II, apenas."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "I e II, apenas."')
+        respostaErrada.innerHTML = 'A resposta correta é: "I e II, apenas."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q7A() {
-
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opE = document.getElementById("opE");
 
     if (opE.checked==true) {
-        alert("VOCÊ ACERTOU! A resposta é: I, II e III.")
+        respostaCorreta.innerHTML = 'A resposta é: I, II e III.';
+        popCerto.style.display = "block";
     }
     else {
-        alert("VOCÊ ERROU! A resposta correta é: I, II e III.")
+        respostaErrada.innerHTML = 'A resposta é: I, II e III.';
+        popErrado.style.display = "block";
     }
 }
 
 function Q8A() {
-
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opD.checked==true) {
-        alert("VOCÊ ACERTOU! A resposta é: tanto o espaço urbano quanto o rural sofreram transformações decorrentes da aplicação de novas tecnologias às atividades industriais e agrícolas.")
+        respostaCorreta.innerHTML = 'A resposta é: tanto o espaço urbano quanto o rural sofreram transformações decorrentes da aplicação de novas tecnologias às atividades industriais e agrícolas.';
+        popCerto.style.display = "block";
     }
     else {
-        alert("VOCÊ ERROU! A resposta correta é: tanto o espaço urbano quanto o rural sofreram transformações decorrentes da aplicação de novas tecnologias às atividades industriais e agrícolas.")
+        respostaErrada.innerHTML = 'A resposta é: tanto o espaço urbano quanto o rural sofreram transformações decorrentes da aplicação de novas tecnologias às atividades industriais e agrícolas.';
+        popErrado.style.display = "block";
     }
 }
 
 function Q9A() {
 
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opA.checked==true) {
-        alert("VOCÊ ACERTOU! A resposta é: devem ser inseridas no planejamento do projeto, uma vez que a empresa é a responsável pela implantação do software (a terceirização foi uma opção da própria empresa).")
+        respostaCorreta.innerHTML = 'A resposta é: devem ser inseridas no planejamento do projeto, uma vez que a empresa é a responsável pela implantação do software (a terceirização foi uma opção da própria empresa).';
+        popCerto.style.display = "block";
     }
     else {
-        alert("VOCÊ ERROU! A resposta correta é: devem ser inseridas no planejamento do projeto, uma vez que a empresa é a responsável pela implantação do software (a terceirização foi uma opção da própria empresa).")
+        respostaErrada.innerHTML = 'A resposta é: devem ser inseridas no planejamento do projeto, uma vez que a empresa é a responsável pela implantação do software (a terceirização foi uma opção da própria empresa).';
+        popErrado.style.display = "block";
     }
 }
 
 function Q10A() {
-
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opC.checked==true) {
-        alert("VOCÊ ACERTOU! A respostas é: A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.")
+        respostaCorreta.innerHTML = 'A respostas é: A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.';
+        popCerto.style.display = "block";
     }
     else {
-        alert("VOCÊ ERROU! A resposta correta é: A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.")
+        respostaErrada.innerHTML = 'A resposta correta é: A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.';
+        popErrado.style.display = "block";
     }
 }
 
 function Q11A() {
-
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opA.checked==true) {
-        alert("VOCÊ ACERTOU! A resposta é a alternativa A.")
+        respostaCorreta.innerHTML = 'A resposta é a alternativa A.';
+        popCerto.style.display = "block";
     }
     else {
-        alert("VOCÊ ERROU! A resposta correta é a alternativa A.")
+        respostaErrada.innerHTML = 'A resposta correta é a alternativa A.';
+        popErrado.style.display = "block";
     }
 }
 
 function Q12A() {
-
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opC.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "Plano de contingência."')
+        respostaCorreta.innerHTML = 'A resposta é: "Plano de contingência."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "Plano de contingência."')
+        respostaErrada.innerHTML = 'A resposta é: "Plano de contingência."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q13A() {
-
-    var opA = document.getElementById("opA");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opB.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I."')
+        respostaCorreta.innerHTML = 'A resposta é: "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I."')
+        respostaErrada.innerHTML = 'A resposta é: "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q14A() {
 
     var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
 
     if (opA.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "I, apenas."')
+        respostaCorreta.innerHTML = 'A resposta é: "I, apenas."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "I, apenas."')
+        respostaErrada.innerHTML = 'A resposta correta é: "I, apenas."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q15A() {
 
     var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
 
     if (opA.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "A transparência entre as entidades do sistema."')
+        respostaCorreta.innerHTML = 'A resposta é: "A resposta é: "A transparência entre as entidades do sistema."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "A transparência entre as entidades do sistema."')
+        respostaErrada.innerHTML = 'A resposta é: "A resposta é: "A transparência entre as entidades do sistema."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q16A() {
 
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
-
+    
     if (opC.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "13."')
+        respostaCorreta.innerHTML = 'A resposta é: "13."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "13."')
+        respostaErrada.innerHTML = 'A resposta correta é: "13."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q17A() {
 
-    var opA = document.getElementById("opA");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opB.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "I e IV."')
+        respostaCorreta.innerHTML = 'A resposta é: "I e IV."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "I e IV."')
+        respostaErrada.innerHTML = 'A resposta é: "I e IV."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q18A() {
 
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opC.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "I e II, apenas. "')
+        respostaCorreta.innerHTML = 'A resposta é: "I e II, apenas."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "I e II, apenas."')
+        respostaErrada.innerHTML = 'A resposta é: "I e II, apenas."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q19A() {
 
-    var opA = document.getElementById("opA");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opB.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "III, apenas."')
+        respostaCorreta.innerHTML = 'A resposta correta é: "III, apenas."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "III, apenas."')
+        respostaErrada.innerHTML = 'A resposta correta é: "III, apenas."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q20A() {
 
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opD.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "0,3,1,5,7,8,2"')
+        respostaCorreta.innerHTML = 'A resposta é: "0,3,1,5,7,8,2"';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "0,3,1,5,7,8,2"')
+        respostaErrada.innerHTML = 'A resposta correta é: "0,3,1,5,7,8,2"';
+        popErrado.style.display = "block";
     }
 }
 
 function Q21A() {
 
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opA.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "I, II e III."')
+        respostaCorreta.innerHTML = 'A resposta é: "I, II e III."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "I, II e III."')
+        respostaErrada.innerHTML = 'A resposta correta é: "I, II e III."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q22A() {
 
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opE = document.getElementById("opE");
 
     if (opE.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "restrições de integridade semântica."')
+        respostaCorreta.innerHTML = 'A resposta é: "restrições de integridade semântica."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "restrições de integridade semântica."')
+        respostaErrada.innerHTML = 'A resposta é: "restrições de integridade semântica."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q23A() {
 
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opD.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "II e III, apenas."')
+        respostaCorreta.innerHTML = 'A resposta é: "II e III, apenas."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "II e III, apenas."')
+        respostaErrada.innerHTML = 'A resposta é: "A resposta correta é: "II e III, apenas."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q24A() {
 
-    var opA = document.getElementById("opA");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opB.checked==true) {
-        alert("VOCÊ ACERTOU! A resposta é: 'Na fase de Elaboração, no fluxo de Análise e Design.'")
+        respostaCorreta.innerHTML = 'A resposta correta é: Na fase de Elaboração, no fluxo de Análise e Design.';
+        popCerto.style.display = "block";
+        
     }
     else {
-        alert("VOCÊ ERROU! A resposta correta é: 'Na fase de Elaboração, no fluxo de Análise e Design.'")
+        respostaErrada.innerHTML = 'A resposta correta é: Na fase de Elaboração, no fluxo de Análise e Design.';
+        popErrado.style.display = "block";
     }
 }
 
 function Q25A() {
-
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opC.checked==true) {
-        alert("VOCÊ ACERTOU! A resposta é: 'Usabilidade, segurança, desempenho e confiabilidade.'")
+        respostaCorreta.innerHTML = 'A resposta é: Usabilidade, segurança, desempenho e confiabilidade.';
+        popCerto.style.display = "block";
     }
     else {
-        alert("VOCÊ ERROU! A resposta correta é: 'Usabilidade, segurança, desempenho e confiabilidade.'")
+        respostaErrada.innerHTML = 'A resposta é: Usabilidade, segurança, desempenho e confiabilidade.';
+        popErrado.style.display = "block";
     }
 }
 
 function Q26A() {
-
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opD.checked==true) {
-        alert("VOCÊ ACERTOU! A resposta é: 'I, III e IV.'")
+        respostaCorreta.innerHTML = 'A resposta é: I, III e IV.';
+        popCerto.style.display = "block";
     }
     else {
-        alert("VOCÊ ERROU! A resposta correta é: 'I, III e IV.'")
+        respostaErrada.innerHTML = 'A resposta correta é: I, III e IV.';
+        popErrado.style.display = "block";
     }
 }
 
 function Q27A() {
 
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opE = document.getElementById("opE");
 
     if (opE.checked==true) {
-        alert("VOCÊ ACERTOU! A resposta é: '8 e 8.'")
+        respostaCorreta.innerHTML = 'A resposta é: 8 e 8.';
+        popCerto.style.display = "block";
     }
     else {
-        alert("VOCÊ ERROU! A resposta correta é: '8 e 8.'")
+        respostaErrada.innerHTML = 'A resposta correta é: 8 e 8.';
+        popErrado.style.display = "block";
     }
 }
 
 function Q28A() {
 
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opE = document.getElementById("opE");
 
     if (opE.checked==true) {
-        alert("VOCÊ ACERTOU! A resposta é: 'I, II e III.'")
+        respostaCorreta.innerHTML = 'A resposta é: I, II e III.';
+        popCerto.style.display = "block";
     }
     else {
-        alert("VOCÊ ERROU! A resposta correta é: 'I, II e III.'")
+        respostaErrada.innerHTML = 'A resposta correta é: I, II e III.';
+        popErrado.style.display = "block";
     }
 }
 
 function Q29A() {
 
     var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
 
     if (opA.checked==true) {
-        alert("VOCÊ ACERTOU!!")
+        respostaCorreta.innerHTML = 'A opção correta era alternativa A';
+        popCerto.style.display = "block";
     }
     else {
-        alert("VOCÊ ERROU, a opção correta era alternativa A")
+        respostaErrada.innerHTML = 'A opção correta era alternativa A';
+        popErrado.style.display = "block";
     }
 }
 
 function Q30A() {
 
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opD.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "II e III, apenas."')
+        respostaCorreta.innerHTML = 'A resposta é: "II e III, apenas."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "II e III, apenas."')
+        respostaErrada.innerHTML = 'A resposta correta é: "II e III, apenas."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q31A() {
 
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opC.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "I e II, apenas."')
+        respostaCorreta.innerHTML = 'A resposta é: "I e II, apenas."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "I e II, apenas."')
+        respostaErrada.innerHTML = 'A resposta correta é: "I e II, apenas."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q32A() {
 
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opE = document.getElementById("opE");
 
     if (opE.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "I, II e III."')
+        respostaCorreta.innerHTML = 'A resposta é: "I, II e III."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "I, II e III."')
+        respostaErrada.innerHTML = 'A resposta correta é: "I, II e III."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q33A() {
 
-    var opA = document.getElementById("opA");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opB.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "I,II e IV."')
+        respostaCorreta.innerHTML = 'A resposta é: "I,II e IV."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "I,II e IV."')
+        respostaErrada.innerHTML = 'A resposta correta é: "I,II e IV."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q34A() {
 
-    var opA = document.getElementById("opA");
-    var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opD.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "20 dias."')
+        respostaCorreta.innerHTML = 'A resposta é: "20 dias."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "20 dias."')
+        respostaErrada.innerHTML = 'A resposta correta é: "20 dias."';
+        popErrado.style.display = "block";
     }
 }
 
 function Q35A() {
 
-    var opA = document.getElementById("opA");
+    var popCerto = document.getElementById("pop-certo");
+    var popErrado = document.getElementById("pop-errado");
+    var respostaCorreta = document.getElementById("correta");
+    var respostaErrada = document.getElementById("errada");
     var opB = document.getElementById("opB");
-    var opC = document.getElementById("opC");
-    var opD = document.getElementById("opD");
-    var opE = document.getElementById("opE");
 
     if (opB.checked==true) {
-        alert('VOCÊ ACERTOU! A resposta é: "o time X venceu o último jogo e o time Y não é campeão."')
+        respostaCorreta.innerHTML = 'A resposta é: "o time X venceu o último jogo e o time Y não é campeão."';
+        popCerto.style.display = "block";
     }
     else {
-        alert('VOCÊ ERROU! A resposta correta é: "o time X venceu o último jogo e o time Y não é campeão."')
+        respostaErrada.innerHTML = 'A resposta correta é: "o time X venceu o último jogo e o time Y não é campeão."';
+        popErrado.style.display = "block";
     }
-}
-
-// function QEscrita() {
-//     alert("Sua resposta vai ser avalida posteriormente!!")
-// }
-
-function finalizar() {
-    alert("A função FINALIZAR, será implementada posteriormente!!")
-        alert("Obrigado por participar!!")
 }
