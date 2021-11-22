@@ -63,6 +63,30 @@
             <img id="questao1" src="img/Q15A.png" alt="Questão 15 multipla"> <!-- !!UTILIZAR AS IMAGENS .png E NÃO COM .jpg!!!!!! Aqui vai a imagem da pergunta, trocar o src="" para a sua imagem e o alt="" mesma coisa-->
             <p id="p_fonte"><b>FONTE: https://download.inep.gov.br/educacao_superior/enade/provas/2014/40_tecnologia_analise_desenv_sistemas.pdf | Questão 15</b></p>
         </div>
+        <div id="pop-errado">
+            <div class="close-pop">
+                <button type="button" class="close-pop" onclick="closeButton()">X</button>
+            </div>
+            <div class="imagem-pop">
+                <img src="img/close.png" width="50px" alt="">
+            </div>
+            <div class="paragrafo-pop">
+                <p class="correct-wrong"><b>VOCÊ ERROU!</b></p>
+                <p id="errada">Trocar Texto</p>
+            </div>
+        </div>
+        <div id="pop-certo">
+            <div class="close-pop">
+                <button type="button" class="close-pop" onclick="closeButton()">X</button>
+            </div>
+            <div class="imagem-pop">
+                <img src="img/checked.png" width="50px" alt="">
+            </div>
+            <div class="paragrafo-pop">
+                <p class="correct-wrong"><b>VOCÊ ACERTOU!</b></p>
+                <p id="correta">Trocar Texto</p>
+            </div>
+        </div>
         <form id="form" action="" method="get"> <!-- Inicio do formulário-->
             <div id="container-respostas"> 
                 <div ID="Q15" class="respostas">
@@ -108,8 +132,9 @@
             </div>
             <div class="button"> <!-- Div para deixar o botão alinhado da forma correta-->
                 <!--<button class="btn-voltar">VOLTAR</button> Botão para futuras alterações-->                                 <!-- TROCA O ONCLICK PARA O NÚMERO DA QUESTÃO EX: QUESTÃO 10 então vai ser Q10A()-->
-               <button onclick="Q15A(),correcao()" formaction="Q16A_EQ2.html"class="btn-prox">PRÓXIMO</button>
-               <button class="btn-prox" onclick="correcao()" formaction="resultado.html">FINALIZAR</button>
+                <button type="button" onclick="Q15A()" class="btn-prox">CORRIGIR</button>
+                <button class="btn-prox" formaction="Q16A_EQ2.html">PRÓXIMA</button>
+                <button class="btn-prox" formaction="resultado.html">FINALIZAR</button>
             </div>
         </form>
     </div>

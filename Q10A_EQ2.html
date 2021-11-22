@@ -67,6 +67,30 @@
             <p class="paragrafo-imagem"> Para que o algortmo funcione corretamente, atendendo o requisito proposto, a mudança
                 em sua estrutura que deve ser aplicada é</p>
         </div>
+        <div id="pop-errado">
+            <div class="close-pop">
+                <button type="button" class="close-pop" onclick="closeButton()">X</button>
+            </div>
+            <div class="imagem-pop">
+                <img src="img/close.png" width="50px" alt="">
+            </div>
+            <div class="paragrafo-pop">
+                <p class="correct-wrong"><b>VOCÊ ERROU!</b></p>
+                <p id="errada">Trocar Texto</p>
+            </div>
+        </div>
+        <div id="pop-certo">
+            <div class="close-pop">
+                <button type="button" class="close-pop" onclick="closeButton()">X</button>
+            </div>
+            <div class="imagem-pop">
+                <img src="img/checked.png" width="50px" alt="">
+            </div>
+            <div class="paragrafo-pop">
+                <p class="correct-wrong"><b>VOCÊ ACERTOU!</b></p>
+                <p id="correta">Trocar Texto</p>
+            </div>
+        </div>
         <form id="form" action="" method="get"> <!-- Inicio do formulário-->
             <div id="container-respostas"> 
                 <div id="Q10" class="respostas">
@@ -111,8 +135,9 @@
             </div>
             <div class="button"> <!-- Div para deixar o botão alinhado da forma correta-->
                 <!--<button class="btn-voltar">VOLTAR</button> Botão para futuras alterações-->
-                <button onclick="Q10A(),correcao()" formaction="Q11A_EQ2.html"class="btn-prox">PRÓXIMO</button>
-                <button class="btn-prox" onclick="correcao()" formaction="resultado.html">FINALIZAR</button>
+                <button type="button" onclick="Q10A()" class="btn-prox">CORRIGIR</button>
+	<button class="btn-prox" formaction="Q11A_EQ2.html">PRÓXIMA</button>
+	<button class="btn-prox" formaction="resultado.html">FINALIZAR</button>
             </div>
         </form>
     </div>
